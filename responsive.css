@@ -1,0 +1,246 @@
+/*===========================
+    Screen Size 480px: Small screens (mobile phones)
+===========================*/
+@media only screen and (max-width: 480px) {
+  .navbar {
+    background-color: #000;
+    height: 36px;
+
+  }
+
+  .navbar p {
+    font-size: 12px;
+
+
+  }
+
+  .navbar .close-button {
+    display: none;
+  }
+
+  .small_size_offcanvas {
+    display: block;
+    display: flex;
+    margin-top: 23px;
+    padding: 0 12px;
+    margin-bottom: 15px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .small_size_offcanvas .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .small_size_offcanvas .btn {
+
+    font-size: 25px;
+    margin-top: -12px;
+  }
+
+  .header_icons {
+    display: flex;
+    margin-left: 150px;
+
+  }
+
+  .icon1 {
+    margin: 0px 10px;
+  }
+
+  .small_size_offcanvas .logo {
+    width: 126px;
+    height: 18px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #000;
+    line-height: 30px;
+    margin-left: 10px;
+  }
+
+  .clothing-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .clothing-section .content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 400px;
+    height: auto;
+    line-height: 34px;
+
+  }
+
+  .clothing-section .content {
+    max-width: 100%;
+
+  }
+
+  .clothing-section .content p {
+    font-size: 14px;
+  }
+
+  .clothing-section .content button {
+    padding: 16px, 54px, 16px, 54px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    width: 100%;
+    height: 52px;
+    font-family: "Tac One", sans-serif;
+  }
+
+  .clothing-section .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+  }
+
+
+  .brand {
+    display: none;
+  }
+
+  .brand_name {
+    background-image: url(images/brand_name_for_small_screen.JPG);
+    background-size: cover;
+    height: 140px;
+
+  }
+
+  .arrivals_heading h1 {
+    font-size: 32px;
+  }
+
+  .arrivals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    background-color: #fff;
+    padding: 0 5px;
+  }
+
+  .product-card .product-image_header {
+    background-color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 190px;
+    margin: 5px 10px;
+
+  }
+
+  .view-all-button {
+    width: 100%;
+  }
+
+  .slider {
+    height: 400px;
+
+  }
+
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .offer-text {
+    display: inline;
+  }
+
+  .newsletter-input {
+    margin-top: 30px;
+  }
+
+  .footer-main p {
+    width: 357px;
+  }
+
+  .footer-column {
+    flex: none;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .help {
+    margin-right: 25px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    font-family: "Roboto Slab", serif;
+  }
+
+  .carousel-nav {
+    width: 360px;
+    transform: rotate(0deg) translate(50px, -100%);
+    transform-origin: left top;
+    margin-left: -20px;
+    margin-top: 500px;
+
+  }
+
+  .carousel-nav .carousel-cell {
+    margin: 10px;
+
+  }
+
+  .big_scrin {
+    width: 100%;
+    height: auto;
+    margin-top: -570px;
+
+  }
+
+  .right-section h1 {
+    margin-top: -120px;
+    font-weight: 900;
+  }
+
+
+
+  .size-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .size-boxes button {
+    padding: 10px 20px;
+  }
+
+  .tab {
+    white-space: nowrap;
+  }
+
+  .dropdown {
+    display: none !important;
+  }
+
+  .review-container {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    width: 100%;
+  }
+
+}

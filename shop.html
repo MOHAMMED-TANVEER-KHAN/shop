@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Mens T-shirt</title>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- OwlCarousel CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- OwlCarousel CDN end -->
+
+  <!--  flickity slider START CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+
+
+
+
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="black_nav">
+        <p>Sign up and get 20% off to your first order.<span class="underline"> Sign Up Now</span></p>
+      </div>
+      <button class="close-button"></button>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="main-container">
+        <div class="logo">SHOP.CO</div>
+        <div class="nav-links">
+
+        <div class="dropdown">
+                <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="index.html">Home</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Men's Fashion</a></li>
+                  <li><a class="dropdown-item" href="index.html">Item 3</a></li>
+                </ul>
+              </div>
+
+            <a href="#">On Sale</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Brands</a>
+        </div>
+        <div class="search-container">
+            <span class="search-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21.7959 20.2041L17.3437 15.75C18.6787 14.0104 19.3019 11.8282 19.087 9.64607C18.8722 7.4639 17.8353 5.44516 16.1867 3.99937C14.5382 2.55357 12.4014 1.78899 10.2098 1.86071C8.01829 1.93244 5.93607 2.8351 4.38558 4.38559C2.83509 5.93608 1.93243 8.0183 1.8607 10.2098C1.78898 12.4014 2.55356 14.5382 3.99936 16.1867C5.44515 17.8353 7.46389 18.8722 9.64606 19.087C11.8282 19.3019 14.0104 18.6787 15.75 17.3438L20.2059 21.8006C20.3106 21.9053 20.4348 21.9883 20.5715 22.0449C20.7083 22.1016 20.8548 22.1307 21.0028 22.1307C21.1508 22.1307 21.2973 22.1016 21.4341 22.0449C21.5708 21.9883 21.695 21.9053 21.7997 21.8006C21.9043 21.696 21.9873 21.5717 22.044 21.435C22.1006 21.2983 22.1298 21.1517 22.1298 21.0037C22.1298 20.8558 22.1006 20.7092 22.044 20.5725C21.9873 20.4358 21.9043 20.3115 21.7997 20.2069L21.7959 20.2041ZM4.12499 10.5C4.12499 9.23915 4.49888 8.0066 5.19938 6.95824C5.89987 5.90988 6.89551 5.09278 8.06039 4.61027C9.22527 4.12776 10.5071 4.00151 11.7437 4.2475C12.9803 4.49348 14.1162 5.10064 15.0078 5.9922C15.8994 6.88376 16.5065 8.01967 16.7525 9.2563C16.9985 10.4929 16.8722 11.7747 16.3897 12.9396C15.9072 14.1045 15.0901 15.1001 14.0418 15.8006C12.9934 16.5011 11.7608 16.875 10.5 16.875C8.80977 16.8733 7.18927 16.2011 5.99411 15.0059C4.79894 13.8107 4.12673 12.1902 4.12499 10.5Z"
+                        fill="black" fill-opacity="0.4" />
+                </svg>
+            </span>
+            <input type="text" placeholder="Search for products...">
+        </div>
+        <div class="header_icons">
+            <div class="icon1"><img src="images/trali.png" alt=""></div>
+            <div class="icon2"><img src="images/admin.png" alt=""></div>
+        </div>
+    </div>
+</header>
+
+
+  <section class="small_size_offcanvas">
+
+
+    <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      <i class="fa fa-bars toggle-btn" onclick="toggleIcon(this)"></i>
+    </a>
+
+    <div class="logo">SHOP.CO</div>
+
+
+    <div class="header_icons">
+      <div> <span class="search-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.7959 20.2041L17.3437 15.75C18.6787 14.0104 19.3019 11.8282 19.087 9.64607C18.8722 7.4639 17.8353 5.44516 16.1867 3.99937C14.5382 2.55357 12.4014 1.78899 10.2098 1.86071C8.01829 1.93244 5.93607 2.8351 4.38558 4.38559C2.83509 5.93608 1.93243 8.0183 1.8607 10.2098C1.78898 12.4014 2.55356 14.5382 3.99936 16.1867C5.44515 17.8353 7.46389 18.8722 9.64606 19.087C11.8282 19.3019 14.0104 18.6787 15.75 17.3438L20.2059 21.8006C20.3106 21.9053 20.4348 21.9883 20.5715 22.0449C20.7083 22.1016 20.8548 22.1307 21.0028 22.1307C21.1508 22.1307 21.2973 22.1016 21.4341 22.0449C21.5708 21.9883 21.695 21.9053 21.7997 21.8006C21.9043 21.696 21.9873 21.5717 22.044 21.435C22.1006 21.2983 22.1298 21.1517 22.1298 21.0037C22.1298 20.8558 22.1006 20.7092 22.044 20.5725C21.9873 20.4358 21.9043 20.3115 21.7997 20.2069L21.7959 20.2041ZM4.12499 10.5C4.12499 9.23915 4.49888 8.0066 5.19938 6.95824C5.89987 5.90988 6.89551 5.09278 8.06039 4.61027C9.22527 4.12776 10.5071 4.00151 11.7437 4.2475C12.9803 4.49348 14.1162 5.10064 15.0078 5.9922C15.8994 6.88376 16.5065 8.01967 16.7525 9.2563C16.9985 10.4929 16.8722 11.7747 16.3897 12.9396C15.9072 14.1045 15.0901 15.1001 14.0418 15.8006C12.9934 16.5011 11.7608 16.875 10.5 16.875C8.80977 16.8733 7.18927 16.2011 5.99411 15.0059C4.79894 13.8107 4.12673 12.1902 4.12499 10.5Z"
+              fill="black" fill-opacity="0.4" />
+          </svg>
+        </span> </div>
+      <div class="icon1"><img src="images/trali.png" alt=""></div>
+      <div class="icon2"><img src="images/admin.png" alt=""></div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <div class="logo">SHOP.CO</div>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Shop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Item 1</a>
+              <a class="dropdown-item" href="#">Item 2</a>
+              <a class="dropdown-item" href="#">Item 3</a>
+            </div>
+          </li>
+        </ul>
+
+
+        <a href="#">On Sale</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">Brands</a>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!--
+<section class="graphic">
+    <div class="container_f">
+        <div class="left-section">
+        
+         
+          <div class="container my-4">
+            <div class="row">
+              <div class="col-1">
+                 <div class="carousel carousel-nav" 
+                      data-flickity='{
+                        "asNavFor": ".carousel-main",
+                        "draggable": false,
+                        "percentPosition": false,
+                        "groupCells": "100%",
+                        "pageDots": false
+                      }'>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                </div>
+              </div>
+              <div class="col-11">
+                <div class="carousel carousel-main"
+                     data-flickity='{
+                       "contain": true,
+                       "pageDots": true
+                     }'>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                  <div class="carousel-cell"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+
+
+
+
+
+        </div>
+        <div class="right-section">
+            <h1>ONE LIFE GRAPHIC T-SHIRT</h1>
+            <div class="ratings">
+                <span>★ ★ ★ ★ ★</span>
+                <span>4.6/5</span>
+                <span>600 × 48</span>
+            </div>
+            <div class="price">
+                <span class="current-price">$260</span>
+                <span class="original-price">$300</span>
+                <span class="discount">40% off</span>
+            </div>
+            <p>This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+            <div class="color-options">
+                <label>Color:</label>
+                <span class="color-box" style="background-color: #2d2d2d;"></span>
+                <span class="color-box" style="background-color: #4a4a4a;"></span>
+                <span class="color-box" style="background-color: #787878;"></span>
+            </div>
+            <div class="size-options">
+                <label>Choose Size:</label>
+                <button>Small</button>
+                <button>Medium</button>
+                <button class="active">Large</button>
+                <button>X-Large</button>
+            </div>
+            <div class="quantity">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</section>-->
+
+  <section class="graphic">
+    <div class="container_f">
+      <div class="left-section">
+        <div class="container my-4">
+          <div class="row">
+            <div class="col-2">
+              <div class="carousel carousel-nav" data-flickity='{
+                              "asNavFor": ".carousel-main",
+                              "contain": true,
+                              "pageDots": false,
+                              "prevNextButtons": false,
+                              "verticalCells": true
+                          }'>
+                <div class="carousel-cell"><img src="shop_images/11.jpg" alt="Thumbnail 1"></div>
+                <div class="carousel-cell"><img src="shop_images/a5.jpg_large" alt="Thumbnail 2"></div>
+                <div class="carousel-cell"><img src="shop_images/13.jfif" alt="Thumbnail 3"></div>
+                <div class="carousel-cell"><img src="shop_images/a4.jpg" alt="Thumbnail 4"></div>
+              </div>
+            </div>
+            <div class="col-10 big_scrin">
+              <div class="carousel carousel-main" data-flickity='{
+                              "contain": true,
+                              "pageDots": true,
+                              "wrapAround": true
+                          }'>
+                <div class="carousel-cell"><img src="shop_images/11.jpg" alt="Main Image 1"></div>
+                <div class="carousel-cell"><img src="shop_images/a5.jpg_large" alt="Main Image 2"></div>
+                <div class="carousel-cell"><img src="shop_images/13.jfif" alt="Main Image 3"></div>
+                <div class="carousel-cell"><img src="shop_images/a4.jpg" alt="Main Image 4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-section">
+        <h1>MEN'S STYLE AND FASHION</h1>
+        <div class="ratings">
+          <span class="stars">
+            <img class="star" src="images/4.5.png" alt="">
+          </span>
+          <span class="rating">4.5/<span class="out_of">5</span></span>
+        </div>
+        <div class="product-price">$260 <span class="line_through">$300</span>
+          <div class="discount-badge">-40%</div>
+        </div>
+        <p>This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers
+          superior comfort and style.</p>
+
+        <div class="color-options">
+
+          <span>Select Color:</span>
+
+          <div class="color-boxes">
+            <p class="color-box" style="background-color: #2d2d2d;"></p>
+            <p class="color-box" style="background-color: #4a4a4a;"></p>
+            <p class="color-box" style="background-color: #787878;"></p>
+          </div>
+        </div>
+
+        <div class="size-options">
+
+          <label>Choose Size:</label>
+          <div class="size-boxes">
+            <button>Small</button>
+            <button>Medium</button>
+            <button>Large</button>
+            <button>X-Large</button>
+          </div>
+
+        </div>
+
+      
+
+        <div class="black_card">
+          <div class="quantity-control">
+            <button id="decrement">-</button>
+            <span id="quantity">1</span>
+            <button id="increment">+</button>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="tabs">
+    <div class="tab">Product Details</div>
+    <div class="tab active">Rating & Reviews</div>
+    <div class="tab">FAQs</div>
+</div>
+
+<div class="review-header">
+  <div class="left">
+      All Reviews <span>(451)</span>
+  </div>
+  <div class="right">
+    <div>
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/sorting-options.png" alt="Sort Icon"/>
+    </div>
+      <div class="dropdown">
+          <span>Latest</span>
+          <div class="dropdown-menu">
+              <div>Latest</div>
+              <div>Oldest</div>
+              <div>Highest Rating</div>
+              <div>Lowest Rating</div>
+          </div>
+      </div>
+      <div class="write-review">Write a Review</div>
+  </div>
+</div>
+
+<section class="alex">
+  <div class="review-container">
+    <div class="review-card">
+        <div class="review-header">
+          <span>★★★★★</span>
+           
+            <div class="menu-dots">•••</div>
+        </div>
+        <h3>Samantha D.<i class="fas fa-check-circle" style="color: green;"></i></h3>
+        <p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fashion designer, I appreciate the attention to detail. It's become my favorite go-to shirt!"</p>
+       
+        <p class="last_pera">Posted on August 14, 2023</p>
+    </div>
+    <div class="review-card">
+        <div class="review-header">
+          <span>★★★★★</span>
+           
+            <div class="menu-dots">•••</div>
+        </div>
+        <h3>Alex M.<i class="fas fa-check-circle" style="color: green;"></i></h3>
+        <p>"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, but this shirt definitely gets a thumbs up from me."</p>
+        <p class="last_pera">Posted on August 11, 2023</p>
+    </div>
+    <div class="review-card">
+        <div class="review-header">
+          <span>★★★★★</span>
+           
+            <div class="menu-dots">•••</div>
+        </div>
+        <h3>Ethan R.<i class="fas fa-check-circle" style="color: green;"></i></h3>
+        <p>"This t-shirt is a must-have for anyone who appreciates good design. The minimalist yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."</p>
+        <p>Posted on August 16, 2023</p>
+    </div>
+    <div class="review-card">
+        <div class="review-header">
+          <span>★★★★★</span>
+           
+            <div class="menu-dots">•••</div>
+        </div>
+        <h3>Olivia P.<i class="fas fa-check-circle" style="color: green;"></i></h3>
+        <p>"As a UX/UI enthusiast, I value simplicity and functionality. This t-shirt not only fits those principles but also looks really good. I have received many compliments for the design and how aesthetically pleasing this t-shirt turned out."</p>
+        <p class="last_pera">Posted on August 17, 2023</p>
+    </div>
+    <div class="review-card">
+        <div class="review-header">
+          <span>★★★★★</span>
+            
+            <div class="menu-dots">•••</div>
+        </div>
+        <h3>Liam K.<i class="fas fa-check-circle" style="color: green;"></i></h3>
+        <p>"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design resonates with my artistic tastes. It’s like wearing a piece of art that reflects my passion for both design and fashion."</p>
+        <p class="last_pera">Posted on August 18, 2023</p>
+    </div>
+    <div class="review-card">
+        <div class="review-header">
+           
+          <span>★★★★★</span>
+            <div class="menu-dots">•••</div>
+        </div>
+        <h3>Ava H.<i class="fas fa-check-circle" style="color: green;"></i></h3>
+        <p>"I’m not just wearing a t-shirt; I’m wearing a piece of design philosophy. The constructive details and thoughtful layout of the design makes this t-shirt a standout item in my wardrobe."</p>
+        <p class="last_pera">Posted on August 19, 2023</p>
+    </div>
+</div>
+<button class="load-more">Load More Reviews</button>
+</section>
+
+<div class="arrivals_heading shop_page">
+  <h1>YOU MIGHT ALSO LIKE</h1>
+</div>
+
+<section class="arrivals">
+
+ <div class="product-card">
+
+     <div class="box">
+         <div class="pic product-image_header">
+
+
+             <img src="images/shop/c.png" alt="T-shirt with Tape Details" class="product-image">
+
+             <span class="icon-1"><a href="#"><i class="fa fa-search"></i></a></span>
+             <span class="icon-2"><a href="#"><i class="fa fa-link"></i></a></span>
+
+         </div>
+     </div>
+
+     <div class="product-details">
+         <h2 class="product-title">Gradient Graphic T-shirt
+        </h2>
+         <div class="product-rating">
+             <span class="stars">
+                 <img class="star" src="images/4.5.png" alt="">
+             </span>
+             <span class="rating">4.5/<span class="out_of">5</span></span>
+
+         </div>
+         <div class="product-price">$145</div>
+     </div>
+ </div>
+
+ <div class="product-card">
+
+     <div class="box">
+         <div class="pic product-image_header">
+
+
+             <img src="images/shop/a.png" alt="T-shirt with Tape Details" class="product-image">
+
+             <span class="icon-1"><a href="#"><i class="fa fa-search"></i></a></span>
+             <span class="icon-2"><a href="#"><i class="fa fa-link"></i></a></span>
+
+         </div>
+     </div>
+
+     <div class="product-details">
+         <h2 class="product-title">Polo with Contrast Trims</h2>
+         <div class="product-rating">
+             <span class="stars">
+                 <img class="star three_star_img" src="images/3.5.png" alt="">
+             </span>
+             <span class="rating">3.5/<span class="out_of">5</span></span>
+
+         </div>
+         <div class="product-price">$212 <span class="line_through">$242</span>
+             <div class="discount-badge">-20%</div>
+         </div>
+     </div>
+ </div>
+
+
+ <div class="product-card">
+
+     <div class="box">
+         <div class="pic product-image_header">
+
+
+             <img src="images/shop/b.png" alt="T-shirt with Tape Details" class="product-image">
+
+             <span class="icon-1"><a href="#"><i class="fa fa-search"></i></a></span>
+             <span class="icon-2"><a href="#"><i class="fa fa-link"></i></a></span>
+
+         </div>
+     </div>
+
+     <div class="product-details">
+         <h2 class="product-title">Checkered Shirt</h2>
+         <div class="product-rating">
+             <span class="stars">
+                 <img class="star" src="images/4.5.png" alt="">
+             </span>
+             <span class="rating">4.5/<span class="out_of">5</span></span>
+
+         </div>
+         <div class="product-price">$180</div>
+     </div>
+ </div>
+
+ <div class="product-card">
+
+     <div class="box">
+         <div class="pic product-image_header">
+
+
+             <img src="images/shop/d.png" alt="T-shirt with Tape Details" class="product-image">
+
+             <span class="icon-1"><a href="#"><i class="fa fa-search"></i></a></span>
+             <span class="icon-2"><a href="#"><i class="fa fa-link"></i></a></span>
+
+         </div>
+     </div>
+
+     <div class="product-details">
+         <h2 class="product-title"> Sleeve Striped T-shirt</h2>
+         <div class="product-rating">
+             <span class="stars">
+                 <img class="star" src="images/4.5.png" alt="">
+             </span>
+             <span class="rating">4.5/<span class="out_of">5</span></span>
+
+         </div>
+         <div class="product-price">$130 <span class="line_through">$160</span>
+             <div class="discount-badge">-30%</div>
+         </div>
+     </div>
+ </div>
+</section>
+
+  <!-- Footer Section -->
+  <section class="last_sec">
+    <footer class="footer">
+  
+      <div class="newsletter">
+          <h2>STAY UPTO DATE ABOUT <p class="offer-text">OUR LATEST OFFERS</p></h2>
+  
+       <div class="newsletter-input">
+              
+              <input type="email" placeholder="Enter your email address">
+              <button>Subscribe to Newsletter</button>
+          </div>
+      </div>
+      
+      <div class="footer-main">
+          
+          <div class="footer-column full">
+              <h3 class="logo">SHOP.CO</h3>
+              <p>We have clothes that suit your style and which your pockets would love. From retro to new, from casual to elegant.</p>
+              <div class="social-icons">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              </div>
+          </div>
+        
+          <div class="footer-column company ">
+              <h4>COMPANY</h4>
+              <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Works</a></li>
+                  <li><a href="#">Career</a></li>
+              </ul>
+          </div>
+          <div class="footer-column help">
+              <h4>HELP</h4>
+              <ul>
+                  <li><a href="#">Customer Support</a></li>
+                  <li><a href="#">Delivery Details</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+              </ul>
+          </div>
+     
+    
+                  <div class="footer-column ">
+              <h4>FAQ</h4>
+              <ul>
+                  <li><a href="#">Account</a></li>
+                  <li><a href="#">Manage Orders</a></li>
+                  <li><a href="#">Orders</a></li>
+                  <li><a href="#">Payment</a></li>
+              </ul>
+          </div>
+          <div class="footer-column ">
+              <h4>RESOURCES</h4>
+              <ul>
+                  <li><a href="#">Free eBooks</a></li>
+                  <li><a href="#">Development Tutorial</a></li>
+                  <li><a href="#">How to - Blog</a></li>
+                  <li><a href="#">Youtube Playlist</a></li>
+              </ul>
+          </div>
+  
+  
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; XYZ 2024 All Rights Reserved</p>
+          <div class="payment-methods">
+              <img src="images/b1.png" alt="Visa">
+              <img src="images/b2.png" alt="Paypal">
+              <img src="images/b3.png" alt="Mastercard">
+              <img src="images/b4.png" alt="Discover">
+          </div>
+      </div>
+  </footer>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- for counter -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.counter').counterUp({
+      delay: 30,
+      time: 4000
+    });
+  </script>
+  <!-- end counter -->
+
+  <!-- slider js start -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>
+
+  <script>
+    const leftArrow = document.getElementById("left-arrow");
+    const rightArrow = document.getElementById("right-arrow");
+
+    const imagesContainer = document.getElementById("image-container");
+    let images = document.querySelectorAll(".model-images");
+
+    // This was done incase the user wanted to start first by pressing the left button
+    let cloneLastImage = images[images.length - 1].cloneNode(true);
+    imagesContainer.prepend(cloneLastImage);
+
+
+    // For the progressBar
+    const imageCount = images.length;
+    let currentImage = 0;
+
+    let firstImageIndexValue = 0;
+    let currentFirstImage = images[0];
+    let currentLastImage = images[images.length - 1];
+
+
+    // GSAP Animations
+    function buttonPressedAnimation(buttonId) {
+      let rule = CSSRulePlugin.getRule(buttonId);
+      let tl = gsap.timeline();
+
+      gsap.set(rule, {
+        cssRule: {
+          scale: 1,
+          border: "solid 0.1rem #fff",
+          opacity: 0,
+        },
+      });
+
+      tl.to(rule, {
+        duration: .2,
+        cssRule: {
+          scale: 1.5,
+          opacity: 1,
+        },
+      });
+
+      tl.to(rule, {
+        duration: 0.2,
+        cssRule: {
+          scale: 3,
+          opacity: 0,
+        },
+        ease: "power2.out",
+      });
+
+      tl.to(rule, {
+        duration: 0.2,
+        cssRule: {
+          scale: 1,
+        },
+        ease: "power2.in",
+      });
+    }
+
+    function staggerImageAnimation(fromValue, toValue, direction) {
+      gsap.fromTo(
+        ".model-images",
+        {
+          translate: fromValue,
+        },
+        {
+          translate: toValue,
+          stagger: {
+            from: direction,
+            amount: 0.3,
+          },
+          ease: "power2.inOut",
+        }
+      );
+    }
+
+    function progressBarAnimation() {
+      gsap.to("#progress-bar", {
+        scaleX: `${1 / imageCount + (currentImage % imageCount) / imageCount}`,
+        duration: 0.3 * ((imageCount - 1) / 2),
+        ease: "power2.inOut",
+      });
+    }
+
+    gsap.set("#progress-bar", {
+      scaleX: `${1 / imageCount + currentImage / imageCount}`,
+    });
+
+    // Gsap animation ends
+
+    // Image Placements
+    function moveImagesTotheLeft() {
+      images = document.querySelectorAll(".model-images");
+      let cloneFirstImage = images[1].cloneNode(true);
+      imagesContainer.append(cloneFirstImage);
+
+      let fromValue = `0`;
+      let toValue = `calc(-100% - 0.5rem) `;
+
+      staggerImageAnimation(fromValue, toValue, "start");
+      images[0].remove();
+    }
+
+    function moveImagesTotheRight() {
+      images = document.querySelectorAll(".model-images");
+      let cloneLastImage = images[images.length - 2].cloneNode(true);
+
+      imagesContainer.prepend(cloneLastImage);
+      let fromValue = `calc(-200% - 1rem)`;
+      let toValue = `calc(-100% - 0.5rem) `;
+      staggerImageAnimation(fromValue, toValue, "end");
+      images[images.length - 1].remove();
+    }
+    // Image Placements Ends
+
+    // Event Listeners
+    leftArrow.addEventListener("click", () => {
+      moveImagesTotheRight();
+      buttonPressedAnimation("#left-arrow:before");
+      gsap.set("#progress-bar", {
+        scaleX: `${1 / imageCount + (currentImage % imageCount) / imageCount}`,
+      });
+      currentImage = (currentImage - 1) % imageCount;
+
+      if (currentImage < 0) {
+        currentImage = 3;
+      }
+
+      progressBarAnimation();
+    });
+
+    rightArrow.addEventListener("click", () => {
+      moveImagesTotheLeft();
+      buttonPressedAnimation("#right-arrow:before");
+      gsap.set("#progress-bar", {
+        scaleX: `${1 / imageCount + (currentImage % imageCount) / imageCount}`,
+      });
+
+      currentImage = (currentImage + 1) % imageCount;
+
+      progressBarAnimation();
+    });
+
+
+
+    // Event Listeners Ends
+  </script>
+
+  <!-- slider js end -->
+
+  <!-- Owl slider cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+
+    $('.owl-prev').click(function () {
+      $('.owl-carousel').trigger('prev.owl.carousel');
+    });
+
+    $('.owl-next').click(function () {
+      $('.owl-carousel').trigger('next.owl.carousel');
+    });
+  </script>
+  <!-- Owl slider cdn end -->
+
+  <script>
+    document.querySelector('.close-button').addEventListener('click', function () {
+      document.querySelector('.navbar').style.display = 'none';
+    });
+  </script>
+
+  <!-- Owl slider cdn end -->
+
+  <!-- flickity slider START -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elemMain = document.querySelector('.carousel-main');
+      var flktyMain = new Flickity(elemMain, {
+        cellAlign: 'left',
+        contain: true,
+        pageDots: true,
+        wrapAround: true
+      });
+
+      var elemNav = document.querySelector('.carousel-nav');
+      var flktyNav = new Flickity(elemNav, {
+        asNavFor: '.carousel-main',
+        contain: true,
+        pageDots: false,
+        prevNextButtons: false,
+        cellAlign: 'left'
+      });
+    });
+  </script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const quantity = document.getElementById('quantity');
+      const incrementBtn = document.getElementById('increment');
+      const decrementBtn = document.getElementById('decrement');
+
+      incrementBtn.addEventListener('click', () => {
+        let currentValue = parseInt(quantity.textContent);
+        quantity.textContent = currentValue + 1;
+      });
+
+      decrementBtn.addEventListener('click', () => {
+        let currentValue = parseInt(quantity.textContent);
+        if (currentValue > 1) {
+          quantity.textContent = currentValue - 1;
+        }
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>
